@@ -5,7 +5,6 @@ import java.util.List;
 
 public class ClaseImplementadora {
 
-    @Override
     public List <String> obtenerListado(int entero){
         String s = "wewer";
         List<String> lista = new ArrayList<>();

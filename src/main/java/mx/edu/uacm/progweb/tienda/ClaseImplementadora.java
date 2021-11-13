@@ -3,9 +3,10 @@ package mx.edu.uacm.progweb.tienda;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClaseImplementadora {
+public class ClaseImplementadora implements Interface{
 
-    public List <String> obtenerListado(int entero){
+    @Override
+	public List <String> obtenerListado(int entero){
         String s = "wewer";
         List<String> lista = new ArrayList<>();
         lista.add(s);

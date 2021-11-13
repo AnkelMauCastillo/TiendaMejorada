@@ -8,6 +8,8 @@ import javax.persistence.Id;
 @Entity
 public class Producto {
 
+    //esta propiedad sera la columna id
+	//la estrategia de generacion sera auto incrementable
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
